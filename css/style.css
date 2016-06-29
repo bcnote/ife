@@ -147,7 +147,14 @@ footer {
 	margin-top: 10px;
 }
 .links {
-	margin-bottom: 200px;
+	margin-bottom: 300px;
+}
+.links a {
+	text-decoration: none;
+	color: #fff;
+}
+.links a:hover {
+	text-decoration: underline;
 }
 
 .copyright {
