@@ -238,5 +238,9 @@ nav li {
 	border-bottom: 1px #ccc solid;
 }
 .menu li a {
+    color: #000;
     text-decoration: none;
+}
+.menu li:hover {
+    border-left: 4px #79298D solid;
 }
