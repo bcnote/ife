@@ -119,6 +119,7 @@ article img {
 	text-align: left;
 	text-indent: 2em;
 	margin: 0 auto;
+	letter-spacing: 0.2em;
 }
 
 footer {
@@ -142,8 +143,11 @@ footer {
 .links li:nth-child(1) {
 	margin-bottom: 20px;
 }
+.links li {
+	margin-top: 10px;
+}
 .links {
-	margin-bottom: 200px;
+	margin-bottom: 300px;
 }
 
 .copyright {
