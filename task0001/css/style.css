@@ -237,3 +237,6 @@ nav li {
 	border-left: 4px #A660B7 solid;
 	border-bottom: 1px #ccc solid;
 }
+.menu li a {
+    text-decoration: none;
+}
