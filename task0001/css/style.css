@@ -71,7 +71,7 @@ nav li {
 	min-height: 600px;
 	background: #f3f3f3;
 }
-article {
+.home-art {
 	float: right;
 	width: 320px;
 	min-height: 460px;
@@ -80,10 +80,10 @@ article {
 	padding-bottom: 25px;
 
 }
-article:nth-child(2) {
+.home-art:nth-child(2) {
     margin: 10px 10px 0 10px;
 }
-article img {
+.home-art img {
 	width: 300px;
 	height: 180px;
 	margin: 10px 10px 0 10px;
@@ -120,9 +120,11 @@ article img {
 	text-indent: 2em;
 	margin: 0 auto;
 	letter-spacing: 0.2em;
+	line-height: 150%;
 }
 
 footer {
+	clear: both;
 	color: #FFFFFF;
 	background: #000;
 }
@@ -137,7 +139,7 @@ footer {
 	margin-top: 30px;
 }
 .links ul:nth-child(n+2) {
-	margin-left: 120px;
+	margin-left: 170px;
 	margin-top: 30px;
 }
 .links li:nth-child(1) {
@@ -163,4 +165,13 @@ footer {
 }
 .copyright p {
 	margin-bottom: 15px;
+}
+
+.container {
+	width: 710px;
+	float: left;
+}
+.sidebar {
+	width: 260px;
+	float: right;
 }
