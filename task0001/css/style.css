@@ -7,12 +7,15 @@
  li {
 	list-style-type: none;
 }
+body {
+	background: #eee;
+}
 
 .main {
 	width: 980px;
 	margin: 0 auto;
 }
-header {
+.header {
 	width: 100%;
 	height: 80px;
 	background: gainsboro;
@@ -123,7 +126,7 @@ nav li {
 	line-height: 150%;
 }
 
-footer {
+.footer {
 	clear: both;
 	color: #FFFFFF;
 	background: #000;
@@ -167,11 +170,70 @@ footer {
 	margin-bottom: 15px;
 }
 
+.art-list {
+	margin-top: 20px;
+}
 .container {
 	width: 710px;
 	float: left;
 }
+.art {
+	background: #fff;
+	margin-bottom: 10px;
+	padding: 15px;
+	position: relative;
+}
+.art-header h1 {
+	font-size: 16px;
+	color: #a660b7;
+}
+.art-header h2 {
+	font-size: 12px;
+	color: #666;
+	margin-top: 5px;
+}
+.art-header {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.info {
+    position: absolute;
+    top: 10px;
+    left: -49px;
+    background: #a660b7;
+    color: #fff;
+}
+.time {
+    background: #522a5c;
+    padding: 10px 10px;
+    text-align: center;
+}
+.category {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.art-content p {
+	font-size: 14px;
+	text-indent: 2em;
+	line-height: 150%;
+}
+.art-footer {
+	margin-top: 25px;
+	color: #ccc;
+	text-align: right;
+}
+
 .sidebar {
 	width: 260px;
 	float: right;
+}
+.sidebar-base {
+	background: #fff
+}
+
+.menu li {
+	padding: 15px;
+	border-left: 4px #A660B7 solid;
+	border-bottom: 1px #ccc solid;
 }
