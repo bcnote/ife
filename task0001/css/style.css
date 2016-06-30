@@ -229,18 +229,39 @@ nav li {
 	float: right;
 }
 .sidebar-base {
-	background: #fff
+	background: #fff;
+    margin-bottom: 10px;
 }
 
 .menu li {
 	padding: 15px;
 	border-left: 4px #A660B7 solid;
-	border-bottom: 1px #ccc solid;
+    border-top: 1px #ccc solid;
+}
+.menu li:last-child {
+    	border-bottom: 1px #ccc solid;
 }
 .menu li a {
     color: #000;
     text-decoration: none;
 }
-.menu li:hover {
+.menu li:hover , .menu li:active {
     border-left: 4px #79298D solid;
+}
+
+.tags {
+    padding: 15px;
+}
+.tags h1 {
+    margin-bottom: 10px;
+}
+.tags a {
+    text-decoration: none;
+    color: #000;
+    margin: 5px;
+}
+.tags a:nth-child(odd) {
+    font-size: 28px;
+    color: #a660b7;
+    font-weight: 600;
 }
