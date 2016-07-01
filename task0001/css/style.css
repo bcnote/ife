@@ -265,3 +265,25 @@ nav li {
     color: #a660b7;
     font-weight: 600;
 }
+
+.calendar {
+	text-align: center;
+	font-size: 13px;
+}
+.calendar tr a {
+	color: #000;
+	text-decoration: none;
+}
+.calendar tr a {
+	background: #79298d;
+	color: #fff;
+}
+caption {
+	font-size: 16px;
+	font-weight: 600;
+	color: #79298d;
+	margin: 15px 0 10px 0;
+}
+.calendar th , .calendar td {
+	padding: 10px;
+}
