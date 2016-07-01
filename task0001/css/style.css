@@ -233,6 +233,29 @@ nav li {
     margin-bottom: 10px;
 }
 
+.search {
+  padding: 20px;
+}
+.search input {
+  height: 35px;
+  padding: 0 15px;
+  width: 130px;
+  border: 1px #ccc solid;
+}
+.search input:focus {
+  outline: 0;
+}
+.search button {
+  height: 37px;
+  padding: 0px 18px;
+  margin-left: -8px;
+  border-left: 0;
+  border-top: 1px #ccc solid; 
+  border-right: 1px #ccc solid; 
+  border-bottom: 1px #ccc solid; 
+}
+input[required]:invalid, input:focus:invalid, textarea[required]:invalid, textarea:focus:invalid{box-shadow: none;}
+
 .menu li {
 	padding: 15px;
 	border-left: 4px #A660B7 solid;
@@ -271,10 +294,12 @@ nav li {
 	font-size: 13px;
 }
 .calendar tr a {
+    display: inline-block;
 	color: #000;
 	text-decoration: none;
+    padding: 10px;
 }
-.calendar tr a {
+.calendar tr a:hover {
 	background: #79298d;
 	color: #fff;
 }
@@ -284,6 +309,21 @@ caption {
 	color: #79298d;
 	margin: 15px 0 10px 0;
 }
-.calendar th , .calendar td {
-	padding: 10px;
+
+.nav {
+    text-align: center;
+    margin: 25px 0;
+}
+.nav a {
+    color: #000;
+    text-decoration: none;
+    background: #fff;
+    padding: 15px;
+}
+.current {
+    background: #79298d!important;
+    color: #fff!important;
+}
+.no-click {
+    color: #ccc!important;
 }
